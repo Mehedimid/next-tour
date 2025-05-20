@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html native-dark-active="">
-      <body className="max-w-[1800px] mx-auto">
+      <body className="max-w-[1800px] mx-auto bg-white dark:bg-gray-800">
         {children}
       </body>
     </html>

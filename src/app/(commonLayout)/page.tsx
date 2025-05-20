@@ -1,4 +1,5 @@
 import PrimaryButton from "@/components/shared/buttons/PrimaryButton";
+import { Button } from "@/components/ui/button";
 import { headers } from "next/headers";
 const Home = async () => {
   const headerList =await headers();
@@ -16,12 +17,15 @@ const Home = async () => {
           label="Explore"
           fromColor="bg-primary"
           toColor="bg-secondary"
+          className=""
         />
         <PrimaryButton
           label="Submit"
+          className=""
           fromColor="bg-secondary"
           toColor="bg-black"
         />
+        <Button className="w-[200px] cursor-pointer font-base">Find Tours</Button>
       </div>
     </section>
   );

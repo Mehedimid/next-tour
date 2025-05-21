@@ -1,4 +1,5 @@
 import PrimaryButton from "@/components/shared/buttons/PrimaryButton";
+import SecondaryButton from "@/components/shared/buttons/SecondaryButton";
 import { Button } from "@/components/ui/button";
 import { headers } from "next/headers";
 const Home = async () => {
@@ -26,6 +27,8 @@ const Home = async () => {
           toColor="bg-black"
         />
         <Button className="w-[200px] cursor-pointer font-base">Find Tours</Button>
+
+        <SecondaryButton label="Secondary Button" />
       </div>
     </section>
   );

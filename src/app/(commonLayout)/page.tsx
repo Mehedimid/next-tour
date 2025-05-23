@@ -30,6 +30,7 @@ const Home = async () => {
 
         <SecondaryButton label="Secondary Button" />
         <SecondaryButton label="Secondary Button" />
+        <SecondaryButton label="Secondary Button" />
       </div>
     </section>
   );

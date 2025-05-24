@@ -29,8 +29,7 @@ const Home = async () => {
         <Button className="w-[200px] cursor-pointer font-base">Find Tours</Button>
 
         <SecondaryButton label="Secondary Button" />
-        <SecondaryButton label="Secondary Button" />
-        <SecondaryButton label="Secondary Button" />
+
       </div>
     </section>
   );

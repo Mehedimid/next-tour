@@ -58,8 +58,7 @@ const Banner = () => {
           Explore Beauty<br className="md:hidden" />  of Bangladesh
         </h1>
         <p className="text-base md:text-lg max-w-2xl mx-auto text-gray-200">
-          Velit integer eu tincidunt scelerisque. Sodales volutpat neque
-          fermentum malesuada.
+          Velit the most Beautiful places of Bangladesh with Next tour and grow up your sweet memory
         </p>
 
         {/* Paper Planes */}

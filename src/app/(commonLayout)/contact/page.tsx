@@ -3,7 +3,7 @@ import React from 'react'
 const ContactPage = () => {
   // const path = usePath
   return (
-    <div>ContactPage</div>
+    <div>Contact Page</div>
   )
 }
 
